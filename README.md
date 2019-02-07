@@ -1,2 +1,2 @@
 # ArundeepChohan.github.io
-Website Design for Github
+Website Design for portfolio
