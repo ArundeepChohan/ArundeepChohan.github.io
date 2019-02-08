@@ -3,4 +3,4 @@ https://arundeepchohan.github.io/
 
 Website Design for portfolio
 
-Bugs: Noticed Adblocker can block certain aspects of the icons and animations. As well as the bottom button.
+Bugs: Noticed Adblock can block certain aspects of the icons and animations. As well as the bottom button.
