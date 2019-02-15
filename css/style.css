@@ -1180,17 +1180,17 @@ a:hover {
     font-size: 1.5rem;
   }
 }
-
-@media (min-width: 992px) {
-	.testimonial-box .description {
-    padding: 0 8rem;
-	}
 	/*
 	Set the work box to be image size with a little bit of space
 	*/
 	.work-box {
-		height:350px;
-		}
+		height:330px;
+	}
+	
+@media (min-width: 992px) {
+	.testimonial-box .description {
+    padding: 0 8rem;
+	}
 
 }
 
@@ -1198,26 +1198,17 @@ a:hover {
 	.testimonial-box .description {
 		padding: 0 13rem;
 	}
-	.work-box {
-		height:320px;
-	}
 }
 @media (max-width: 1200px) {
   .testimonial-box .description {
     padding: 0 13rem;
   }
-  .work-box {
-	height:340px;
-	}
-}
 
+}
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
-  .work-box {
-	height:360px;
-	}
 
 }
