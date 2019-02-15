@@ -1,4 +1,17 @@
-
+/*
+  Theme Name: DevFolio
+  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+.Avatar
+{
+	display: block;
+	margin-top: 20px;
+    margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
@@ -464,7 +477,7 @@ a:hover {
   transition: all .5s ease-in-out;
   background-color: #fff;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
@@ -658,14 +671,6 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
-.Avatar
-{
-	display: block;
-	margin-top: 20px;
-    margin-left: auto;
-	margin-right: auto;
-	border-radius: 50%;
-}
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1177,24 +1182,24 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-  .testimonial-box .description {
+	.testimonial-box .description {
     padding: 0 8rem;
-  }
-  /*
-Set the work box to be image size with a little bit of space
-*/
-.work-box {
-	height:350px;
 	}
+	/*
+	Set the work box to be image size with a little bit of space
+	*/
+	.work-box {
+		height:350px;
+		}
 
 }
 
 @media (min-width: 1200px) {
-  .testimonial-box .description {
-    padding: 0 13rem;
-  }
-  .work-box {
-	height:320px;
+	.testimonial-box .description {
+		padding: 0 13rem;
+	}
+	.work-box {
+		height:320px;
 	}
 }
 @media (max-width: 1200px) {
@@ -1202,7 +1207,7 @@ Set the work box to be image size with a little bit of space
     padding: 0 13rem;
   }
   .work-box {
-	height:350px;
+	height:340px;
 	}
 }
 
@@ -1212,7 +1217,7 @@ Set the work box to be image size with a little bit of space
     bottom: 15px;
   }
   .work-box {
-	height:400px;
+	height:360px;
 	}
 
 }
