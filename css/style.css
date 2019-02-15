@@ -1,12 +1,4 @@
 
-.Avatar
-{
-	display: block;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 50%;
-}
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
@@ -665,6 +657,14 @@ a:hover {
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+.Avatar
+{
+	display: block;
+	margin-top: 20px;
+    margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -769,6 +769,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 330px;
 }
 
 .work-box:hover img {
@@ -1054,7 +1055,6 @@ a:hover {
 }
 
 
-
 /*======================================
 //--//-->   BUTTON
 ======================================*/
@@ -1175,29 +1175,35 @@ a:hover {
     font-size: 1.5rem;
   }
 }
-	/*
-	Set the work box to be image size with a little bit of space
-	*/
-	.work-box {
-		height:330px;
-	}
+
 	
 @media (min-width: 992px) {
 	.testimonial-box .description {
     padding: 0 8rem;
 	}
-
+	/*
+	Set the work box to be image size with a little bit of space
+	*/
+	.work-box {
+		height:340px;
+	}
 }
 
 @media (min-width: 1200px) {
 	.testimonial-box .description {
 		padding: 0 13rem;
 	}
+	.work-box {
+		height:330px;
+	}
 }
 @media (max-width: 1200px) {
   .testimonial-box .description {
     padding: 0 13rem;
   }
+  	.work-box {
+		height:330px;
+	}
 
 }
 
@@ -1205,5 +1211,8 @@ a:hover {
   .back-to-top {
     bottom: 15px;
   }
+  .work-box {
+		height:340px;
+	}
 
 }
