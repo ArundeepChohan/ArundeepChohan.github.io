@@ -8,4 +8,4 @@ Seems to need to change fa to something else https://help.getadblock.com/support
 
 Improvements: Change all images to a smaller size to fit the container. As well as changing the type of image to a new type. 
 
-Updates: Febuary 20, 2019. Added webp using Node.js and fallback. 
+Updates: Febuary 20, 2019. Added webp using Node.js with fallback images. Need to figure how to do background images in webp.
