@@ -7,3 +7,5 @@ Bugs: Noticed Adblock can block certain aspects of the icons and animations. As 
 Seems to need to change fa to something else https://help.getadblock.com/support/solutions/articles/6000148708-adblock-blocks-font-awesome-social-media-icons.
 
 Improvements: Change all images to a smaller size to fit the container. As well as changing the type of image to a new type. 
+
+Updates: Febuary 20, 2019. Added webp using Node.js and fallback. 
