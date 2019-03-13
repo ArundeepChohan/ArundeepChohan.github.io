@@ -11,3 +11,5 @@ Improvements: Change all images to a smaller size to fit the container. As well 
 Updates: Febuary 20, 2019. Added webp using Node.js with fallback images. Need to figure how to do background images in webp.
 
 March 11, 2019. Added several more projects to showcase skills.
+
+March 12, 2019. Compressing image files to reduce size.
