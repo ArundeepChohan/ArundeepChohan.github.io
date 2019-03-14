@@ -98,7 +98,7 @@
 			  <img src="img/Selfie.jpg" alt="Avatar">
 			</picture>
 			<p class="lead">
-                    	So here I am a Vancouver born graduate of Langara College in the Association of Science Degree in Computer Science. Looking to make apps for a living. Loves to try out any new programming languages
+            So here I am a Vancouver born graduate of Langara College in the Association of Science Degree in Computer Science. Looking to make apps for a living. Loves to try out any new programming languages
 			to solve problems and interested in Big Data applications. I also love to game, watch anime and discuss projects other people are currently working on. I love animals as well and had a wonderful dog named Sparky.
 			</p>
 			<picture class="Avatar">
@@ -125,10 +125,10 @@
         <div class="col-lg-12">
           <div class="title-box text-center">
             <h3 class="title-a">
-		Projects
+			Projects
             </h3>
             <p class="subtitle-a">
-		Where the ideas come to life.
+			Where the ideas come to life.
             </p>
             <div class="line-mf"></div>
           </div>
@@ -139,10 +139,10 @@
         <div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/Chess.webp" type="image/webp" class="img-fluid">
-		<img src="img/Chess.jpg" alt="Chess" class="img-fluid" >
-		</picture>     
+				<picture>
+					<source srcset="img/Chess.webp" type="image/webp" class="img-fluid">
+					<img src="img/Chess.jpg" alt="Chess" class="img-fluid" >
+				</picture>     
               </div>
               <div class="work-content">
                 <div class="row">
@@ -164,18 +164,18 @@
         <div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/PokeballThrowingGame.webp" type="image/webp" class="img-fluid">
-		<img src="img/PokeballThrowingGame.png" alt="Pokeball" class="img-fluid" >
-		</picture>  
+				<picture>
+					<source srcset="img/PokeballThrowingGame.webp" type="image/webp" class="img-fluid">
+					<img src="img/PokeballThrowingGame.png" alt="Pokeball" class="img-fluid" >
+				</picture>  
               </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Pokeball Throwing Game</h2>
                     <div class="w-more">
-			<a href="https://github.com/ArundeepChohan/Coursework/tree/master/2130/Assignment8" target="_blank"><span class="w-ctegory">Code</span> </a> /
-			<a href="https://htmlpreview.github.io/?https://github.com/ArundeepChohan/Coursework/blob/master/2130/Assignment8/index.html" target="_blank"><span class="w-ctegory">Demo</span></a>
+						<a href="https://github.com/ArundeepChohan/Coursework/tree/master/2130/Assignment8" target="_blank"><span class="w-ctegory">Code</span> </a> /
+						<a href="https://htmlpreview.github.io/?https://github.com/ArundeepChohan/Coursework/blob/master/2130/Assignment8/index.html" target="_blank"><span class="w-ctegory">Demo</span></a>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -190,10 +190,10 @@
         <div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/RiseofGallantmon.webp" type="image/webp" class="img-fluid">
-		<img src="img/RiseofGallantmon.png" alt="Gallantmon" class="img-fluid" >
-		</picture>
+				<picture>
+					<source srcset="img/RiseofGallantmon.webp" type="image/webp" class="img-fluid">
+					<img src="img/RiseofGallantmon.png" alt="Gallantmon" class="img-fluid" >
+				</picture>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -213,16 +213,15 @@
           </div>
         </div>
 		
-       <div class="col-md-6 col-lg-4">
+		 <div class="col-md-6 col-lg-4">
           <div class="work-box">
-              <div class="work-img">
-		<div class="animate">
-		<picture>
-		<source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid">
-		<img src="img/StarcraftAnimation.png" alt="Starcraft Animation" class="img-fluid" >
-		</picture>
-	      </div>
-	</div>
+              <div class="work-img" id="Starcraft">
+			  <picture>
+			  <source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid">
+			  <img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" >
+			  </picture>
+			  
+			  </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
@@ -234,20 +233,40 @@
                   <div class="col-sm-4">
                     <div class="w-like">
                       <a href="img/StarcraftAnimation.png" data-lightbox="gallery-mf"> <span class="ion-ios-plus-outline"></span></a>
-		      <a href="img/StarcraftAnimation2.png" data-lightbox="gallery-mf"> <span class="ion-ios-plus-outline"></span></a>
+					  <a href="img/StarcraftAnimation2.png" data-lightbox="gallery-mf"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
               </div>
           </div>
-		  </div>
-	<div class="col-md-6 col-lg-4">
+		</div>
+		<script>
+		carousel();
+		var myIndex = 0;
+		
+		function carousel() {	
+		if(myIndex==0)
+		{
+			document.getElementById('Starcraft').innerHTML = ('<picture><source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
+		}
+		else
+		{
+			document.getElementById('Starcraft').innerHTML = ('<picture><source srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation2.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
+		}
+		myIndex++;
+		if (myIndex > 1) {myIndex = 0}    
+			setTimeout(carousel, 5000); // Change image every 5 seconds
+		}
+		
+		</script>
+		
+		<div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/TrackingDashboard.webp" type="image/webp" class="img-fluid">
-		<img src="img/TrackingDashboard.png" alt="Tracking Dashboard" class="img-fluid" >
-		</picture>
+				<picture>
+					<source srcset="img/TrackingDashboard.webp" type="image/webp" class="img-fluid">
+					<img src="img/TrackingDashboard.png" alt="Tracking Dashboard" class="img-fluid" >
+				</picture>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -266,13 +285,38 @@
               </div>
           </div>
         </div>
-	<div class="col-md-6 col-lg-4">
+		<div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/RockPaperScissors.webp" type="image/webp" class="img-fluid">
-		<img src="img/RockPaperScissors.png" alt="Rock Paper Scissors" class="img-fluid" >
-		</picture>
+				<picture>
+					<source srcset="img/GoogleApi.webp" type="image/webp" class="img-fluid">
+					<img src="img/GoogleApi.png" alt="Google Api" class="img-fluid" >
+				</picture>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Google Api</h2>
+                    <div class="w-more">
+						<a href="https://github.com/ArundeepChohan/Ideas/tree/master/Course%20Planning/Search%20Nearby" target="_blank"><span class="w-ctegory">Code</span> </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="img/GoogleApi.png" data-lightbox="gallery-mf"><span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+		<div class="col-md-6 col-lg-4">
+          <div class="work-box">
+              <div class="work-img">
+				<picture>
+					<source srcset="img/RockPaperScissors.webp" type="image/webp" class="img-fluid">
+					<img src="img/RockPaperScissors.png" alt="Rock Paper Scissors" class="img-fluid" >
+				</picture>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -291,13 +335,13 @@
               </div>
           </div>
         </div>
-	<div class="col-md-6 col-lg-4">
+		<div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/CardAgain.webp" type="image/webp" class="img-fluid">
-		<img src="img/CardAgain.png" alt="Card Again" class="img-fluid" >
-		</picture>
+				<picture>
+					<source srcset="img/CardAgain.webp" type="image/webp" class="img-fluid">
+					<img src="img/CardAgain.png" alt="Card Again" class="img-fluid" >
+				</picture>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -316,38 +360,14 @@
               </div>
           </div>
         </div>
-	<div class="col-md-6 col-lg-4">
+		
+		<div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/Canucks.webp" type="image/webp" class="img-fluid">
-		<img src="img/Canucks.png" alt="Canucks" class="img-fluid" >
-		</picture>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Canucks</h2>
-                    <div class="w-more">
-                      <a href="https://github.com/ArundeepChohan/Coursework/tree/master/2130/Assignment10" target="_blank"><span class="w-ctegory">Code</span> </a>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="img/Canucks.png" data-lightbox="gallery-mf"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-	<div class="col-md-6 col-lg-4">
-          <div class="work-box">
-              <div class="work-img">
-		<picture>
-		<source srcset="img/MolonLabeWebpage.webp" type="image/webp" class="img-fluid">
-		<img src="img/MolonLabeWebpage.png" alt="Molon Labe Webpage" class="img-fluid" >
-		</picture>
+				<picture>
+					<source srcset="img/MolonLabeWebpage.webp" type="image/webp" class="img-fluid">
+					<img src="img/MolonLabeWebpage.png" alt="Molon Labe Webpage" class="img-fluid" >
+				</picture>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -366,38 +386,14 @@
               </div>
           </div>
         </div>		
+
         <div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/GoogleApi.webp" type="image/webp" class="img-fluid">
-		<img src="img/GoogleApi.png" alt="Google Api" class="img-fluid" >
-		</picture>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Google Api</h2>
-                    <div class="w-more">
-		      <a href="https://github.com/ArundeepChohan/Ideas/tree/master/Course%20Planning/Search%20Nearby" target="_blank"><span class="w-ctegory">Code</span> </a>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="img/GoogleApi.png" data-lightbox="gallery-mf"><span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="work-box">
-              <div class="work-img">
-		<picture>
-		<source srcset="img/CollegeProgram.webp" type="image/webp" class="img-fluid">
-		<img src="img/CollegeProgram.jpg" alt="Gallantmon" class="img-fluid" >
-		</picture>
+				<picture>
+					<source srcset="img/CollegeProgram.webp" type="image/webp" class="img-fluid">
+					<img src="img/CollegeProgram.jpg" alt="Gallantmon" class="img-fluid" >
+				</picture>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -419,10 +415,10 @@
         <div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/CoursePlanning.webp" type="image/webp" class="img-fluid">
-		<img src="img/CoursePlanning.jpg" alt="Course Planning" class="img-fluid" >
-		</picture>
+				<picture>
+					<source srcset="img/CoursePlanning.webp" type="image/webp" class="img-fluid">
+					<img src="img/CoursePlanning.jpg" alt="Course Planning" class="img-fluid" >
+				</picture>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -430,7 +426,7 @@
                     <h2 class="w-title">Course Planning App</h2>
                     <div class="w-more">
                      <a href="https://github.com/ArundeepChohan/Ideas/tree/master/Course%20Planning" target="_blank"><span class="w-ctegory">Code</span></a>
-			  </div>
+					</div>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
@@ -440,14 +436,39 @@
                 </div>
               </div>  
           </div>
-        </div>  
-	<div class="col-md-6 col-lg-4">
+        </div>
+		<div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/LandscapeImage.webp" type="image/webp" class="img-fluid">
-		<img src="img/LandscapeImage.png" alt="Lighthouse Image" class="img-fluid" >
-		</picture>     
+				<picture>
+					<source srcset="img/Canucks.webp" type="image/webp" class="img-fluid">
+					<img src="img/Canucks.png" alt="Canucks" class="img-fluid" >
+				</picture>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Canucks</h2>
+                    <div class="w-more">
+                      <a href="https://github.com/ArundeepChohan/Coursework/tree/master/2130/Assignment10" target="_blank"><span class="w-ctegory">Code</span> </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="img/Canucks.png" data-lightbox="gallery-mf"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>		
+		<div class="col-md-6 col-lg-4">
+          <div class="work-box">
+              <div class="work-img">
+				<picture>
+					<source srcset="img/LandscapeImage.webp" type="image/webp" class="img-fluid">
+					<img src="img/LandscapeImage.png" alt="Lighthouse Image" class="img-fluid" >
+				</picture>     
               </div>
               <div class="work-content">
                 <div class="row">
@@ -455,7 +476,7 @@
                     <h2 class="w-title">Lighthouse Image</h2>
                     <div class="w-more">
                       <a href="https://github.com/ArundeepChohan/Coursework/tree/master/2130/Assignment11" target="_blank"><span class="w-ctegory">Code</span> </a> /
-		      <a href="https://www.youtube.com/watch?v=QJxTnl6QA8s" target="_blank"><span class="w-ctegory">Demo</span></a>
+						<a href="https://www.youtube.com/watch?v=QJxTnl6QA8s" target="_blank"><span class="w-ctegory">Demo</span></a>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -467,13 +488,13 @@
               </div> 
           </div>
         </div>
-	<div class="col-md-6 col-lg-4">
+		<div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/TorvaPlatebody.webp" type="image/webp" class="img-fluid">
-		<img src="img/TorvaPlatebody.png" alt="Torva Platebody" class="img-fluid" >
-		</picture>     
+				<picture>
+					<source srcset="img/TorvaPlatebody.webp" type="image/webp" class="img-fluid">
+					<img src="img/TorvaPlatebody.png" alt="Torva Platebody" class="img-fluid" >
+				</picture>     
               </div>
               <div class="work-content">
                 <div class="row">
@@ -492,13 +513,13 @@
               </div> 
           </div>
         </div>
-	<div class="col-md-6 col-lg-4">
+		<div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img">
-		<picture>
-		<source srcset="img/Centario.webp" type="image/webp" class="img-fluid">
-		<img src="img/Centario.png" alt="Centario" class="img-fluid" >
-		</picture>     
+				<picture>
+					<source srcset="img/Centario.webp" type="image/webp" class="img-fluid">
+					<img src="img/Centario.png" alt="Centario" class="img-fluid" >
+				</picture>     
               </div>
               <div class="work-content">
                 <div class="row">
@@ -506,7 +527,7 @@
                     <h2 class="w-title">Centario</h2>
                     <div class="w-more">
                       <a href="https://github.com/ArundeepChohan/Coursework/tree/master/2130/Assignment11" target="_blank"><span class="w-ctegory">Code</span> </a> /
-		      <a href="https://www.youtube.com/watch?v=cHrLHOK5jr8" target="_blank"><span class="w-ctegory">Demo</span></a>
+						<a href="https://www.youtube.com/watch?v=cHrLHOK5jr8" target="_blank"><span class="w-ctegory">Demo</span></a>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -518,7 +539,7 @@
               </div> 
           </div>
         </div>  
-      </div>
+	   </div>
     </div>
   </section>
  
@@ -553,7 +574,7 @@
             <div class="service-content">
               <h2 class="s-title">Web Development</h2>
               <p class="s-description text-center">
-		Can make websites using Ajax, Angular, Bootstrap, CSS3, HTML5, Javascript, JQuery, Node.js, React and Wordpress.
+				Can make websites using Ajax, Angular, Bootstrap, CSS3, HTML5, Javascript, JQuery, Node.js, React and Wordpress.
               </p>
             </div>
           </div>
