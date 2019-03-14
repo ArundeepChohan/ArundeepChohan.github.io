@@ -11,13 +11,6 @@
 
   // Preloader
   $(window).on('load', function () {
-	  var cache = ["img/Chess.webp","img/Chess.png","PokeballThrowingGame.webp","PokeballThrowingGame.png",];
-	  var args_len = arguments.length;
-    for (var i = args_len; i--;) {
-      var cacheImage = document.createElement('img');
-      cacheImage.src = arguments[i];
-      cache.push(cacheImage)
-	}
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
         $(this).remove();
