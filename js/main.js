@@ -16,8 +16,38 @@
         $(this).remove();
       });
     }
-  });
 
+ });
+ var myIndex=0;
+ $(document).ready(function()
+{
+	
+	$('#Starcraft').fadeOut(500);
+	$('#Starcraft').html('<picture><source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
+	$('#Starcraft').fadeIn(500);
+	$('#Starcraft').fadeOut(500);
+	$('#Starcraft').html('<picture><source srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation2.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
+	$('#Starcraft').fadeIn(500);
+	setInterval(function()
+	{ 
+		myIndex=myIndex+1;
+		$('#Starcraft').fadeOut(500);
+		if (myIndex > 1) {myIndex = 0}   
+		if(myIndex==1)
+		{
+			$('#Starcraft').html('<picture><source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
+			$('#Starcraft').fadeIn(2500);
+		}
+		else
+		{
+			$('#Starcraft').html('<picture><source srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation2.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
+			$('#Starcraft').fadeIn(2500);
+		}
+		
+	},10000);
+	
+});
+	
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
