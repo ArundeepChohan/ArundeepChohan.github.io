@@ -216,11 +216,7 @@
 		 <div class="col-md-6 col-lg-4">
           <div class="work-box">
               <div class="work-img" id="Starcraft">
-			  <picture>
-			  <source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid">
-			  <img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" >
-			  </picture>
-			  
+			 
 			  </div>
               <div class="work-content">
                 <div class="row">
@@ -240,25 +236,6 @@
               </div>
           </div>
 		</div>
-		<script>
-		carousel();
-		var myIndex = 0;
-		
-		function carousel() {	
-		if(myIndex==0)
-		{
-			document.getElementById('Starcraft').innerHTML = ('<picture><source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
-		}
-		else
-		{
-			document.getElementById('Starcraft').innerHTML = ('<picture><source srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation2.png" alt="StarcraftAnimation" class="img-fluid" ></picture>');
-		}
-		myIndex++;
-		if (myIndex > 1) {myIndex = 0}    
-			setTimeout(carousel, 5000); // Change image every 5 seconds
-		}
-		
-		</script>
 		
 		<div class="col-md-6 col-lg-4">
           <div class="work-box">
