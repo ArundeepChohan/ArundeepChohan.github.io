@@ -2,7 +2,14 @@
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
-
+.Hobbies {
+  display: table;
+  margin: 0 auto;
+}
+.CV{
+  display: table;
+  margin: 0 auto;
+}
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -197,11 +204,11 @@ a:hover {
 }
 
 .socials .ico-circle {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   font-size: 1.7rem;
   border-radius: 50%;
-  line-height: 1.4;
+  line-height: 1.0;
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
