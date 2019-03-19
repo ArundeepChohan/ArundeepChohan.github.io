@@ -22,19 +22,19 @@
  $(document).ready(function()
 {
 	
-	$('#Starcraft').hide().html('<a href="img/StarcraftAnimation.png" data-lightbox="gallery-mf"><picture><source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" ></picture></a>').fadeIn('slow');
-	$('#Starcraft').hide().html('<a href="img/StarcraftAnimation2.png" data-lightbox="gallery-mf"><picture><source srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation2.png" alt="StarcraftAnimation" class="img-fluid" ></picture></a>').fadeIn('slow');
+	$('#Starcraft').hide().html('<a href="img/StarcraftAnimation.png" data-lightbox="gallery-mf"><picture><source media="(max-width: 319px)" srcset="img/StarcraftAnimation_320.webp" type="image/webp" class="img-fluid"><source media="(min-width: 320px)" srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/Starcraft.png" alt="Starcraft" class="img-fluid" ></picture></a>').fadeIn('slow');
+	$('#Starcraft').hide().html('<a href="img/StarcraftAnimation2.png" data-lightbox="gallery-mf"><picture><source media="(max-width: 319px)" srcset="img/StarcraftAnimation2_320.webp" type="image/webp" class="img-fluid"><source media="(min-width: 320px)" srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/Starcraft2.png" alt="Starcraft" class="img-fluid" ></picture></a>').fadeIn('slow');
 	setInterval(function()
 	{ 
 		myIndex=myIndex+1;
 		if (myIndex > 1) {myIndex = 0}   
 		if(myIndex==1)
 		{
-			$('#Starcraft').hide().html('<a href="img/StarcraftAnimation.png" data-lightbox="gallery-mf"><picture><source srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation.png" alt="StarcraftAnimation" class="img-fluid" ></picture></a>').fadeIn('slow');
+			$('#Starcraft').hide().html('<a href="img/StarcraftAnimation.png" data-lightbox="gallery-mf"><picture><source media="(max-width: 319px)" srcset="img/Starcraft_320.webp" type="image/webp" class="img-fluid"><source media="(min-width: 320px)" srcset="img/StarcraftAnimation.webp" type="image/webp" class="img-fluid"><img src="img/Starcraft.png" alt="Starcraft" class="img-fluid" ></picture></a>').fadeIn('slow');
 		}
 		else
 		{
-			$('#Starcraft').hide().html('<a href="img/StarcraftAnimation2.png" data-lightbox="gallery-mf"><picture><source srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/StarcraftAnimation2.png" alt="StarcraftAnimation" class="img-fluid" ></picture></a>').fadeIn('slow');
+			$('#Starcraft').hide().html('<a href="img/StarcraftAnimation2.png" data-lightbox="gallery-mf"><picture><source media="(max-width: 319px)" srcset="img/Starcraft_320.webp" type="image/webp" class="img-fluid"><source media="(min-width: 320px)" srcset="img/StarcraftAnimation2.webp" type="image/webp" class="img-fluid"><img src="img/Starcraft2.png" alt="Starcraft" class="img-fluid" ></picture></a>').fadeIn('slow');
 		}
 		
 	},10000);
