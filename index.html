@@ -19,6 +19,21 @@
   
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+   
+   <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
   
 </head>
 
@@ -151,7 +166,8 @@
               <div class="work-img">
 			  <a href="img/Chess.jpg" data-lightbox="gallery-mf"> 
 			    <picture>
-					<source srcset="img/Chess.webp" type="image/webp" class="img-fluid">
+					<source media="(max-width: 319px)" srcset="img/Chess_320.webp" type="image/webp" class="img-fluid">
+					<source media="(min-width: 320px)" srcset="img/Chess.webp" type="image/webp" class="img-fluid">
 					<img src="img/Chess.jpg" alt="Chess" class="img-fluid" >
 				</picture>  
 			  </a>
@@ -160,6 +176,7 @@
                 <div class="row">
                   <div class="col-sm-12">
                     <h2 class="w-title">Chess</h2>
+					
                     <div class="w-more">
                       <a href="https://github.com/ArundeepChohan/Coursework/tree/master/1181/Chess" target="_blank"><span class="w-ctegory">Code</span> </a>
                     </div>
@@ -558,20 +575,6 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
-  
-   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+ 
 </body>
 </html>
