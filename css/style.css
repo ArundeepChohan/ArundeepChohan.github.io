@@ -1,20 +1,3 @@
-.no-webp  .section-counter.paralax-mf.bg-image{
-  background-image: url('img/counters-bg.jpg');
-}
-
-.webp .section-counter.paralax-mf.bg-image {
-  background-image: url('img/counters-bg.webp');
-}
-
-.no-webp  .paralax-mf.footer-paralax.bg-image.sect-mt4.route{
-  background-image: url('img/overlay-bg.jpg');
-}
-
-.webp .paralax-mf.footer-paralax.bg-image.sect-mt4.route {
-  background-image: url('img/overlay-bg.webp');
-}
-
-
 
 
 /*======================================
