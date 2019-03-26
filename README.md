@@ -15,3 +15,5 @@ March 11, 2019. Added several more projects to showcase skills.
 March 12, 2019. Compressing image files to reduce size.
 
 March 18, 2019. Converting to Mobile to reduce data usage.
+
+March 26, 2019. Minified CSS Completely.
