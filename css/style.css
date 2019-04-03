@@ -746,24 +746,24 @@ a:hover {
 ======================================*/
 
 .counter-box {
-  color: #fff;
-  text-align: center;
+	color: #fff;
+	text-align: center;
 }
 
 .counter-ico {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .counter-ico .ico-circle {
-  height: 60px;
-  width: 60px;
-  line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+	height: 60px;
+	width: 60px;
+	line-height: 1.8;
+	box-shadow: 0 0 0 10px #cde1f8;
 }
 
 .counter-num .counter {
-  font-size: 2rem;
-  margin-bottom: 0;
+	font-size: 2rem;
+	margin-bottom: 0;
 }
 
 /*======================================
@@ -771,23 +771,22 @@ a:hover {
 ======================================*/
 
 .work-box {
-  margin-bottom: 3rem;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: #fff;
-  height: 330px;
+	margin-bottom: 3rem;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	background-color: #fff;
 }
 
 .work-box:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 /*Added margin */
 .work-img {
 	height:200px;
 	width:100%;
-  display: block;
-  overflow: hidden;
+	display: block;
+	overflow: hidden;
 }
 
 .work-img img {
@@ -797,12 +796,12 @@ a:hover {
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+	padding: 2rem 3% 1rem 4%;
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
-  font-size: .8rem;
+	color: #4e4e4e;
+	font-size: .8rem;
 }
 
 .work-content .w-more .w-ctegory {
@@ -825,6 +824,11 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+}
+
+.w-description{
+	height:40px;
+	width:100%;
 }
 
 /*======================================
@@ -1007,9 +1011,7 @@ a:hover {
 .box-comments .comment-children {
   margin-left: 40px;
 }
-
 /*------/ Sidebar /------*/
-
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
@@ -1181,17 +1183,10 @@ a:hover {
     font-size: 1.5rem;
   }
 }
-
 	
 @media (min-width: 992px) {
 	.testimonial-box .description {
     padding: 0 8rem;
-	}
-	/*
-	Set the work box to be image size with a little bit of space
-	*/
-	.work-box {
-		height:340px;
 	}
 }
 
@@ -1199,26 +1194,15 @@ a:hover {
 	.testimonial-box .description {
 		padding: 0 13rem;
 	}
-	.work-box {
-		height:330px;
-	}
 }
 @media (max-width: 1200px) {
   .testimonial-box .description {
     padding: 0 13rem;
   }
-  	.work-box {
-		height:330px;
-	}
-
 }
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
-  .work-box {
-		height:340px;
-	}
-
 }
