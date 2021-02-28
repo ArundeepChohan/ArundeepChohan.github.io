@@ -1,10 +1,38 @@
-.intro route bg-image{
-	background-image: url(../img/intro-bg.jpg) no-repeat;
+
+
+.intro.route.bg-image{
+	background: url(../img/intro-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover
 }
-.webp .intro route bg-image{
-	background-image: url(../img/intro-bg.webp) no-repeat ;
+.webp .intro.route.bg-image{
+	background: url(../img/intro-bg.webp);
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.section-counter.paralax-mf.bg-image{
+	background: url(../img/counters-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.webp .section-counter.paralax-mf.bg-image{
+	background: url(../img/counters-bg.webp);
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.paralax-mf.footer-paralax.bg-image.sect-mt4.route
+{
+	background: url(../img/overlay-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover
 }
 
+.webp .paralax-mf.footer-paralax.bg-image.sect-mt4.route
+{
+	background: url(../img/overlay-bg.webp);
+	background-repeat: no-repeat;
+	background-size: cover
+}
 
 /*======================================
 //--//-->   STYLES GENERALES
@@ -83,12 +111,7 @@ a:hover {
   line-height: 1.1;
 }
 
-.bg-image {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
+
 
 .overlay-mf {
   background-color: #0078ff;
