@@ -1,3 +1,11 @@
+.intro route bg-image{
+	background-image: url(img/intro-bg.jpg)
+}
+.webp .intro route bg-image{
+	background-image: url(img/intro-bg.webp)
+}
+
+
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
