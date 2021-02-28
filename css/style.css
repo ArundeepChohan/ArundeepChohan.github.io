@@ -1,8 +1,8 @@
 .intro route bg-image{
-	background-image: url(img/intro-bg.jpg)
+	background-image: url(../img/intro-bg.jpg) no-repeat;
 }
 .webp .intro route bg-image{
-	background-image: url(img/intro-bg.webp)
+	background-image: url(../img/intro-bg.webp) no-repeat ;
 }
 
 
